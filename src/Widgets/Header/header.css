@@ -1,0 +1,34 @@
+header {
+  background-color: blueviolet;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  width: 50px;
+}
+
+header nav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+header nav button {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: olivedrab;
+  color: white;
+  transition: 0.5s;
+  font-size: 24px;
+}
+
+header nav button:hover {
+  background-color: rgb(35, 35, 142);
+  color: white;
+}
+
+header nav button.active {
+  background-color: rgb(35, 35, 142);
+}
